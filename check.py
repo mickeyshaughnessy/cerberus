@@ -4,8 +4,8 @@ import os, time
 bench = ["www.google.com", "www.nytimes.com", "www.amazon.com", "www.president.gov.ua", "www.usa.gov"]
 bench = ["https://" + b for b in bench]
 
-targets = []
 while True:
+    targets = []
     os.system('clear')
     print("References:")
     for b in bench:
