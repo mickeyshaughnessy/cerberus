@@ -1,4 +1,8 @@
-run this script on the command line terminal:
+This has domain monitoring and load testing tools
+
+run the monitoring script in a terminal window 
 `python3 check.py`
 
-the output will monitor web domains of interest
+run the load testing script like:
+`bash run_load.sh`
+
