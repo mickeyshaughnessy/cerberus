@@ -6,6 +6,7 @@ while True:
     with open('targets.txt') as f:
         for line in f:
             url = line.rstrip()
+            print("Testing %s..." % url)
             os.system("""
                     echo "GET %s" |
                     vegeta attack -rate=%s -workers=%s -duration=%ss | 
