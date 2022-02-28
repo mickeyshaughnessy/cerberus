@@ -6,3 +6,6 @@ run the monitoring script in a terminal window
 run the load testing script like:
 `bash run_load.sh`
 
+
+install vegeta with the instructions here
+https://www.scaleway.com/en/docs/tutorials/load-testing-vegeta/
